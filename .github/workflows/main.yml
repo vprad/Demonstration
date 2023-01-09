@@ -1,5 +1,6 @@
 name: CI
-# edit
+
+# Run this workflow every time a commit gets pushed to main or a pull request gets opened against main
 on:
   push:
     branches:
@@ -18,4 +19,4 @@ jobs:
           with:
             azure-devops-project-url: https://dev.azure.com/pradeepcv/Demonstration
             azure-pipeline-name: 'Demonstration'
-            azure-devops-token: ${{ secrets.token }}
+            azure-devops-token: ${{ secrets.TOKEN }}
