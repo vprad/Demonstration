@@ -18,4 +18,4 @@ jobs:
           with:
             azure-devops-project-url: https://dev.azure.com/pradeepcv/Demonstration
             azure-pipeline-name: 'Demonstration'
-            azure-devops-token: ${{ secrets.TOKEN }}
+            azure-devops-token: ${{ secrets.token }}
